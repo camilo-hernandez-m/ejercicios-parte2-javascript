@@ -9,6 +9,6 @@ addEventListener("DOMContentLoaded", ()=>{
     let edad=(act-Nac)
     
     //Salida o entrega de resultados
-    console.log("Tu edad es de:",edad,"años"
+    console.log("Tu edad es de:",edad,"años")
 
 })

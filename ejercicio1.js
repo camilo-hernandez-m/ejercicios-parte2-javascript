@@ -3,7 +3,6 @@ addEventListener("DOMContentLoaded", ()=>{
     // DISTANCIA ENTRE  PUNTOS
     //DATOS DE ENTRADA
     let d= rc((x2-x1)**2+(y2-y1)**2)
-     import Math;
     let x1=Number(prompt("la primera distancia x "));
     let x2=Number(prompt("la segunda distancia x ")); 
     let y1=Number(prompt("la primera distancia y "));

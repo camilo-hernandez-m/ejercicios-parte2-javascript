@@ -1,13 +1,13 @@
 addEventListener("DOMContentLoaded", ()=>{
     //definir que parte le corresponde a lorena de la venta de las tapas 
     // martin toma 2/3 y jairo 1/4
-    plata=float(input("cantidad de dinero que cree que se ganaron"))
-    from fractions import Fraction
-    mrtin=Fraction(2/3)
-    jr=Fraction(1/4)
+    let plata=Number(prompt("cantidad de dinero que cree que se ganaron"))
+    
+    let mrtin=Number(2/3)
+    let jr=Number(1/4)
     //procesos
-    lrn=(mrtin-jr)
+    let lrn=(mrtin-jr)
     
     //salida o entrega de datos
-    print("a lorena le corresponde: ",lrn)
+    console.log("a lorena le corresponde: ",lrn)
 })
